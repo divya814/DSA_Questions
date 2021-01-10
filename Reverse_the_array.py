@@ -12,3 +12,7 @@ print(arr)
 
 
 #or simple- arr[::-1]
+# e.g. s=["h","e","l","l","o"]
+# print(s[::-1])
+
+# better use "s.reverse()"
