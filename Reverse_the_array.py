@@ -1,4 +1,4 @@
-// reversing the array using swap
+# reversing the array using swap
 
 n=int(input())
 arr=list(map(int,input().split()))
@@ -11,4 +11,4 @@ while st<en:
 print(arr)
 
 
-// or simple- arr[::-1]
+#or simple- arr[::-1]
