@@ -22,3 +22,13 @@ class Solution:
                 prev=curr
                 curr=curr.next
         return head
+
+    
+# OR
+        if head==None:
+            return head
+        head.next=self.removeElements(head.next,val)
+        if head.val==val:
+            head=head.next
+        
+        return head
