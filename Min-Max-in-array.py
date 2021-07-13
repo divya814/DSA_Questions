@@ -7,7 +7,7 @@ class pair:
 
 def minmax(a):
     num=pair()
-    if len(a)<=0:
+    if len(a)==1:
         num.minE=a[0]
         num.maxE=a[0]
         return num
